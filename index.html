@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/5bbe2a999b.js" crossorigin="anonymous"></script>
+    <title>World Travels</title>
+  </head>
+  <body class="min-h-screen bg-red-50 text-base font-main">
+    <!-- Nav bar -->
+    <nav class=" bg-white sticky top-0 z-40">
+      <div class="container md:container lg:container mx-auto px-2 py-3 lg:flex justify-between items-center">
+        <!-- Brand Name and mobile toggle -->
+        <div class="flex justify-between items-center pb-6 lg:pb-0">
+        <a href="#" class="block text-red-800">
+          <h1 class="font-bold text-2xl uppercase">TravelTips</h1>
+        </a>
+        <label class="text-3xl border border-sky-400 px-3 py-1 lg:hidden" for="mobile-toggle">&#9776</label>
+      </div>
+      <!-- End brand name and mobile toggle -->
+       <!--Start Navbar links -->
+       <input id="mobile-toggle" type="checkbox" class="hidden">
+       <ul class="nav-links *:p-2 divide-y lg:divide-y-0 divide-red-200 hidden lg:flex lg:list-disc">
+        <li class="font-main uppercase font-medium lg:mx-10 text-red-600"><a href="#hero" class="text-slate-800 hover:text-red-800">Home</a></li>
+        <li class="font-main uppercase font-medium lg:mx-10 text-red-500"><a href="#features" class="text-slate-800 hover:text-red-800">Featured</a></li>
+        <li class="font-main uppercase font-medium lg:mx-10 text-red-500"><a href="#category" class="text-slate-800 hover:text-red-800">Category</a></li>
+        <li class="font-main uppercase font-medium lg:mx-10 text-red-500"><a href="#recentPost" class="text-slate-800 hover:text-red-700">Recent</a></li>
+       </ul>
+       <!-- End Navbar links -->
+        <!--Start Nav socials -->
+        <ul class="lg:flex lg:items-center text-sm hidden">
+          <li class="mr-3 text-red-100"><a href="#" class="bg-red-400 rounded-full py-3 px-4"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li class="mr-3 text-red-100"><a href="#" class="bg-red-400 rounded-full p-3"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="mr-3 text-red-100 "><a href="#" class="bg-red-400 rounded-full py-3 px-[13px]"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <!--End Nav socials -->
+       <!--End Navbar menu -->
+      </div>
+    </nav>
+    <!-- End of navbar -->
+     <!-- Hero section -->
+      <section id="hero" class="  h-screen flex justify-center items-center bg-no-repeat bg-center 
+      bg-cover relative" style="background-image: url('./Image/travelbannar.avif');">
+      <div class="absolute w-full h-full bg-red-950/65"></div>
+        <div class=" container md:container lg:container mx-auto p-3 flex flex-col justify-center items-center h-full text-center w-1/2 z-10">
+          <h1 class="uppercase font-black text-2xl lg:text-3xl text-red-50 leading-relaxed">We provide travel tips and news that is within your budget.</h1>
+          <p class="mt-3 text-red-50 text-base lg:text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores tempore impedit ab sequi quisquam rerum hic recusandae, aliquam similique.</p>
+          <button class="bg-red-800 px-10 py-3 mt-6 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Learn more</button>
+        </div> 
+        </section>
+        <!-- End hero Section -->
+         <!-- Start Featured post -->
+         <section id="features" class="mt-5 container  md:container lg:container p-3 mx-auto">
+          <h2 class="text-center text-slate-700 font-bold text-3xl">Featured Post</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 mt-5">
+            <!-- Card -->
+            <div class="*:mb-4">
+              <div class="bg-red-50 border shadow-md rounded-md">
+                <img src="./Image/travelbannar.avif" alt="rocky view" class="rounded-md">
+                <div class="p-3">
+                 <h4 class="font-medium text-xl uppercase mb-2">Oyo rock view</h4>
+                  <p class="text-justify text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptatem, exercitationem repellendus ullam blanditiis quos, ipsam ipsum tempora asperiores quod commodi dicta laudantium dolore aperiam non suscipit minima odit autem...</p>
+                  <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="border shadow-md rounded-md">
+                <img src="./Image/travelbannar.avif" alt="rocky view" class="rounded-md">
+                <div class="p-3">
+                 <h4 class="font-medium text-xl uppercase mb-2">Oyo rock view</h4>
+                  <p class="text-justify text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptatem, exercitationem repellendus ullam blanditiis quos, ipsam ipsum tempora asperiores quod commodi dicta laudantium dolore aperiam non suscipit minima odit autem...</p>
+                  <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End card -->
+            <div>
+              <!-- Feature news tiles -->
+              <div class="md:ml-4">
+                
+              <div class="border p-3 shadow-lg mb-2">
+                <h2 class="capitalize font-bold mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                <p class="text-xs text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita tempore at nobis ex unde id fuga ab aut! Nihil laboriosam cum placeat labore vero officiis ea quo mollitia saepe!</p>
+                <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Read more</a>
+                  </div>
+               </div>
+              <div class="border p-3 shadow-lg mb-2">
+                <h2 class="capitalize font-bold mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                <p class="text-xs text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita tempore at nobis ex unde id fuga ab aut! Nihil laboriosam cum placeat labore vero officiis ea quo mollitia saepe!</p>
+                <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Read more</a>
+                  </div>
+               </div>
+              <div class="border p-3 shadow-lg mb-2">
+                <h2 class="capitalize font-bold mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                <p class="text-xs text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita tempore at nobis ex unde id fuga ab aut! Nihil laboriosam cum placeat labore vero officiis ea quo mollitia saepe!</p>
+                <div class="mt-1 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Read more</a>
+                  </div>
+               </div>
+              <div class="border p-3 shadow-lg mb-3">
+                <h2 class="capitalize font-bold mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                <p class="text-xs text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita tempore at nobis ex unde id fuga ab aut! Nihil laboriosam cum placeat labore vero officiis ea quo mollitia saepe!</p>
+                <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Read more</a>
+                  </div>
+               </div>
+              </div>
+            </div>
+          </div>
+         </section>
+         <!-- End Featured post -->
+          <!-- Start category section -->
+           <section id="category" class="bg-red-300 mt-5 px-3 py-6" >
+            <div class="container md:container lg:container p-3 mx-auto">
+              <h2 class="text-center text-slate-700 font-bold text-3xl">Category</h2>
+            <!-- tags -->
+             <div class="flex justify-center items-center flex-wrap gap-3 mt-4">
+              <span class="bg-red-800 px-5 py-2 rounded-full font-medium text-sm text-red-100 hover:bg-red-950 hover:text-red-50">Trend</span>
+              <span class="bg-red-800 px-5 py-2 rounded-full font-medium text-sm text-red-100 hover:bg-red-950 hover:text-red-50">Tips </span>
+              <span class="bg-red-800 px-5 py-2 rounded-full font-medium text-sm text-red-100 hover:bg-red-950 hover:text-red-50">Destination</span>
+             </div>
+             <!-- End tags -->
+              <!-- Card grid -->
+             <div class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+               <div class="border shadow-md mb-3 md:mb-0 bg-red-100 rounded-md">
+                <img src="./Image/travelbannar.avif" alt="rocky view" class="rounded-md">
+                <div class="p-3">
+                 <h4 class="font-medium text-xl uppercase mb-2">Oyo rock view</h4>
+                  <p class="text-justify text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptatem, exercitationem repellendus ullam blanditiis quos, ipsam ipsum tempora asperiores quod commodi dicta laudantium dolore aperiam non suscipit minima odit autem...</p>
+                  <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Read more</a>
+                  </div>
+                </div>
+              </div>
+               <div class="border shadow-md mb-3 md:mb-0 bg-red-100 rounded-md">
+                <img src="./Image/travelbannar.avif" alt="rocky view" class="rounded-md">
+                <div class="p-3">
+                 <h4 class="font-medium text-xl uppercase mb-2">Oyo rock view</h4>
+                  <p class="text-justify text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptatem, exercitationem repellendus ullam blanditiis quos, ipsam ipsum tempora asperiores quod commodi dicta laudantium dolore aperiam non suscipit minima odit autem...</p>
+                  <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Read more</a>
+                  </div>
+                </div>
+              </div>
+               <div class="border shadow-md mb-3 md:mb-0 bg-red-100 rounded-md">
+                <img src="./Image/travelbannar.avif" alt="rocky view" class="rounded-md">
+                <div class="p-3">
+                 <h4 class="font-medium text-xl uppercase mb-2">Oyo rock view</h4>
+                  <p class="text-justify text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptatem, exercitationem repellendus ullam blanditiis quos, ipsam ipsum tempora asperiores quod commodi dicta laudantium dolore aperiam non suscipit minima odit autem...</p>
+                  <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-900">Read more</a>
+                  </div>
+                </div>
+              </div>
+               
+             </div>
+             <!-- End card grid -->
+            </div>
+           </section>
+           <!-- End category section -->
+            <!-- Recent posts section -->
+            <section id="recentPost" class="mt-5 container md:container lg:container p-3 mx-auto">
+            <h2 class="text-center text-slate-700 font-bold text-3xl">Recent Post</h2>
+              <div class="mt-4 md:grid md:grid-cols-2 gap-2">
+                <div class="border p-3 shadow-lg mb-2">
+                <h2 class="capitalize font-bold mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                <p class="text-xs text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita tempore at nobis ex unde id fuga ab aut! Nihil laboriosam cum placeat labore vero officiis ea quo mollitia saepe!</p>
+                <div class="mt-3">
+                  <span class="mr-2"><i class="fa-solid fa-calendar"></i></span>
+                  <span>Jul 20, 2024</span>
+                </div>
+                <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-100 hover:text-red-800">Read more</a>
+                  </div>
+               </div>
+                <div class="border p-3 shadow-lg mb-2">
+                <h2 class="capitalize font-bold mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                <p class="text-xs text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita tempore at nobis ex unde id fuga ab aut! Nihil laboriosam cum placeat labore vero officiis ea quo mollitia saepe!</p>
+                <div class="mt-3">
+                  <span class="mr-2"><i class="fa-solid fa-calendar"></i></span>
+                  <span>Jul 20, 2024</span>
+                </div>
+                <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-100 hover:text-red-800">Read more</a>
+                  </div>
+               </div>
+                <div class="border p-3 shadow-lg mb-2">
+                <h2 class="capitalize font-bold mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                <p class="text-xs text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita tempore at nobis ex unde id fuga ab aut! Nihil laboriosam cum placeat labore vero officiis ea quo mollitia saepe!</p>
+                <div class="mt-3">
+                  <span class="mr-2"><i class="fa-solid fa-calendar"></i></span>
+                  <span>Jul 20, 2024</span>
+                </div>
+                <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-100 hover:text-red-800">Read more</a>
+                  </div>
+               </div>
+                <div class="border p-3 shadow-lg mb-2">
+                <h2 class="capitalize font-bold mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+                <p class="text-xs text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita tempore at nobis ex unde id fuga ab aut! Nihil laboriosam cum placeat labore vero officiis ea quo mollitia saepe!</p>
+                <div class="mt-3">
+                  <span class="mr-2"><i class="fa-solid fa-calendar"></i></span>
+                  <span>Jul 20, 2024</span>
+                </div>
+               <div class="mt-2 py-4">
+                    <a href="#" class="bg-red-800 px-10 py-3 text-red-100 rounded-tr-full rounded-br-full font-medium hover:bg-red-100 hover:text-red-800">Read more</a>
+                  </div>
+               </div>
+              </div>
+            </section>
+      <footer class="px-3 py-6 mt-6 bg-red-800">
+        <div class="container md:container lg:container mx-auto px-3 flex flex-col justify-center items-center">
+          <!-- Footer form -->
+            <form action="" class="w-full mx-auto">
+              <label for="subscription" class="block text-red-100 mb-2 text-base capitalize text-center">Newsletter subscription</label>
+              <div class="flex items-center justify-center">
+                <input id="subscription" type="email" class="border p-2.5 outline-none w-9/12" placeholder="Enter your email" required>
+                <button class="bg-slate-300 py-[11.2px] px-3 border-0 outline-none font-medium text-center rounded-tr-full rounded-br-full">Subscribe</button>
+              </div> 
+            </form>
+            <!-- End footer form -->
+              <!--Start Nav socials -->
+        <ul class="flex justify-center items-center mt-4">
+          <li class="mr-3 bg-red-400 text-red-100 px-4 py-2 rounded-full"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li class="mr-3 bg-red-400 text-red-100 px-4 py-2 rounded-full"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="mr-3 bg-red-400 text-red-100 px-4 py-2 rounded-full"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <!--End Nav socials -->
+          <small class="text-center mt-4 text-red-100 block">&copy; Copyright 2024.</small>
+          <small class="text-center mt-4 text-red-100 block">Coded and designed by Emmanuel Oyediran.</small>
+        </div>
+      </footer>
+  </body>
+</html>
